@@ -1,0 +1,54 @@
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Elementos HTML base */
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Listas sin estilos */
+ul, ol {
+  list-style: none;
+}
+
+/* Quitar subrayado de enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Imágenes y videos fluidos */
+img, picture, video, canvas {
+  max-width: 100%;
+  display: block;
+}
+
+/* Formularios sin estilos por defecto */
+input, button, textarea, select {
+  font: inherit;
+  border: none;
+  background: none;
+}
+
+/* Botones sin outline por defecto */
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+
+/* Tablas sin espacios extra */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
