@@ -2,6 +2,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 40px;
 }
 
 ul {
@@ -94,12 +95,12 @@ article {
 }
 
 footer {
-    border-radius: 80px;
     height: 100px;
     display: flex;
-    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
 }
 
-.red  {
-    margin-left: 292px;
+.red {
+    margin-right: 50px;
 }

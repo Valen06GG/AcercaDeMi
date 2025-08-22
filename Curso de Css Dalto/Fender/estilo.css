@@ -1,0 +1,86 @@
+body {
+    background-color: rgba(50, 49, 49, 0.801);
+}
+
+header {
+    /* border: solid white; */
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: column;
+    background-color: #fad889;
+    border-radius: 10px;
+}
+
+ul {
+    padding: 20px 33px 15px 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    /* border: solid black; */
+    padding: 6px 16px;
+    margin: 0 5px;
+    font-size: 1.1rem;
+}
+
+a:hover {
+    border-radius: 9px;
+    background-color: #222;
+    color: #fff;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.articulo {
+    display: flex;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulo {
+    margin-top: 100px;
+}
+
+article {
+    display: flex;
+}
+
+div {
+    border: 2px solid  rgba(17, 16, 16, 0.801);
+    color: #ffffff;
+    padding: 10px 10px 5px 10px;
+    margin: 0px 5px;
+}
+
+.guitarristas {
+    display: flex;
+    margin: 0px 20px;
+    padding: 20px 20px 5px 20px;
+   
+}
+
+.lista {
+    display: flex;
+}
+
+img {
+    width: 320px;
+}
+
+footer {
+    height: 90px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.red {
+    margin-right: 50px;
+}
